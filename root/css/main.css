@@ -1,0 +1,344 @@
+@font-face {
+  font-family: Metallica Font;
+  src: url("../fonts/Metallica-Font/Pastor\ of\ Muppets.TTF");
+}
+
+@font-face {
+  font-family: Puppets Font;
+  src: url("../fonts/puppets-font/eurostile.TTF");
+}
+
+@font-face {
+  font-family: "Justice Font";
+  src: url(../fonts/justice-font/Graffiti\ City.otf);
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+body {
+  background-color:rgb(5, 5, 5);
+  margin: 0px;
+}
+
+.background-img {
+    background: url(https://cdn.media.amplience.net/i/metallica/72-seasons-album_hero?fmt=auto);
+    background-position: center; 
+    background-size: cover;
+    position: relative;
+    height: 970px;
+
+
+  }
+
+
+   
+  .button-1 {
+        background-color: #daca17dc;
+        border: 5px solid black;
+        color: black;
+        padding: 18px;
+        position:relative;
+        top: 50%;
+        left: 50%;
+        font-size: 0%;
+        margin: 2px 2px;
+        transition-duration: 0.2s;
+        cursor: pointer;
+        
+      }
+      
+      .button-1 {
+        border-radius: 100%;
+        background-color: #f9b71f;
+        background-image:url(https://cdn-icons-png.flaticon.com/512/156/156354.png);
+        background-size:20px 25px ;       
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      
+      .button-1:hover {
+        background-color: black;
+        background-image:url(https://images.squarespace-cdn.com/content/v1/5c8ff974e66669460498069f/1607451154474-9L8BRPPW02AEMCFIL5Y9/arrow-down.png?format=300w);
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+      }
+
+
+.bandmembers {
+  position: relative;
+  height: 300px;
+
+
+
+}  
+
+.members-p {
+  font-family: Puppets Font;
+  font-size: xx-large;
+  color: white;
+  position: absolute;
+  left: 1200px;
+  top: 150px;
+
+}
+
+.bandmembers-a {
+    display: flex;
+    width: 900px;
+    height: 430px;
+    position: absolute;
+    left: 870px;
+    top: 230px;
+      
+
+    
+}
+    .bandmembers img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.9;
+    transition: 0.5s ease;
+}
+    .bandmembers img:hover {
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+  .band-info {
+    font-size: x-large;
+    font-family: Puppets Font;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    width: 700px;
+
+}
+.discography-a {
+  font-size: xx-large;
+
+
+}
+
+
+.discography {
+  position: relative;
+  top: 1200px;
+  height: 300px;
+
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+ 
+  font-family: Puppets Font;
+
+
+
+}
+ 
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+  }
+
+  .grid-item img:hover {
+    filter: contrast(120%);
+    transition: 0.5s ease;
+    flex-grow: 1;
+    
+
+  }
+  
+
+
+      /* Ride The Lightning */
+      
+.lightning-cover { 
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 500px;
+  height: 500px;
+
+}
+.h1-lightning {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  position: absolute;
+  font-size: 45px;
+  left: 700px;
+  top: 50px;
+
+}
+.rtl-p {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+position: absolute;
+left: 700px;
+top: 150px;
+}
+
+      /*Master Of Puppets*/
+
+.puppets-cover { 
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 500px;
+  height: 500px;
+  filter: contrast(130%);
+
+}
+.h1-puppets {
+  font-family: "Puppets Font";
+  color: white;
+  position: absolute;
+  left: 700px;
+  top: 50px;
+  font-size: 45px;
+
+}
+.puppets-p {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+position: absolute;
+left: 700px;
+top: 150px;
+}
+
+      /*...And Justice For All*/
+
+.justice-cover { 
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 500px;
+  height: 500px;
+
+}
+.h1-justice {
+  font-family: Justice Font;
+  color: white;
+  position: absolute;
+  font-size: 45px;
+  left: 700px;
+  top: 50px;
+
+}
+
+.personnel {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  color: white;
+  position: absolute;
+  top: 570px;
+  left: 70px;
+
+
+}
+
+.justice-p {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+position: absolute;
+left: 700px;
+top: 150px;
+}
+
+.one-video {
+
+  position: absolute;
+  right: 70px;
+  top: 1200px;
+
+}
+
+.one-p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  color: white;
+  position: absolute;
+  right: 120px;
+  top: 1100px;
+
+}
+
+.justice-spotify {
+
+  position: absolute;
+  left: 70px;
+  top: 1200px;
+
+}
+
+.spotify-p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  color: white;
+  position: absolute;
+  left: 330px;
+  top: 1100px;
+
+
+}
+
+
+      /*Metallica's Members*/
+
+.members-title { 
+color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+position: absolute;
+}
+
+
+.members-pic {
+
+  grid-template-rows: auto auto auto auto;
+
+}
+
+.james-pic {
+  width: 500px;
+  height: 500px;
+
+}
+
+.kirk-pic {
+  width: 500px;
+  height: 500px;
+}
+
+.rob-pic {
+  width: 500px;
+  height: 500px;
+}
+
+.lars-pic {
+  width: 500px;
+  height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
