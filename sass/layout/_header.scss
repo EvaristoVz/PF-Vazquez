@@ -1,0 +1,131 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #daca17dc;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  transition: 0.4s;
+  color: #daca17dc;
+  background-color: #111;
+}
+
+    
+    
+    
+    /* Ride The Lightning */
+      
+     .lightning-cover { 
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 500px;
+        height: 500px;
+      
+      }
+      .h1-lightning {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        position: absolute;
+        font-size: 45px;
+        left: 700px;
+        top: 50px;
+      
+      }
+      .rtl-p {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: white;
+      position: absolute;
+      left: 700px;
+      top: 150px;
+      }
+
+            /*Master Of Puppets*/
+
+.puppets-cover { 
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 500px;
+    height: 500px;
+    filter: contrast(130%);
+  
+  }
+  .h1-puppets {
+    font-family: 'Puppets Font';
+    color: white;
+    position: absolute;
+    left: 700px;
+    top: 50px;
+    font-size: 45px;
+  
+  }
+  .puppets-p {
+  font-family: '$Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  position: absolute;
+  left: 700px;
+  top: 150px;
+  }
+
+        /*...And Justice For All*/
+
+.justice-cover { 
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 500px;
+    height: 500px;
+  
+  }
+  
+  .justice-title {
+    position: absolute;
+    left: 700px;
+    top: 60px;
+    width: 40%;
+  }
+  
+  .h1-justice {
+    font-family: Justice Font;
+    color: white;
+    position: absolute;
+    font-size: 85px;
+    right: 12%;
+    top: 10px;
+  
+  }
+  
+  .personnel {
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: white;
+    position: absolute;
+    top: 570px;
+    left: 70px;
+  
+  
+  }
+  
+  .justice-p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  position: absolute;
+  left: 700px;
+  top: 150px;
+  }

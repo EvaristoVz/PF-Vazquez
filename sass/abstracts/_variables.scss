@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Metallica Font;
+    src: url("../fonts/Metallica-Font/Pastor\ of\ Muppets.TTF");
+  }
+  
+  @font-face {
+    font-family: Puppets Font;
+    src: url("../fonts/puppets-font/eurostile.TTF");
+  }
+  
+ 
+  
+  @media screen and (max-width: 768px) {
+    .image-grid {
+      grid-template-columns: repeat(2, 1fr); 
+      max-width: 400px; 
+    }
+  }
+  
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .image-grid {
+      grid-template-columns: repeat(3, 1fr); 
+      max-width: 600px; 
+    }
+  }
+  
+  
+  @media screen and (min-width: 1025px) {
+    .image-grid {
+      grid-template-columns: repeat(4, 1fr); 
+      max-width: none; 
+    }
+  }
+  
+  
